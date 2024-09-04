@@ -13,10 +13,6 @@ Applications: Software you use, such as Zen Recorder for recording videos or gam
 The Kernel:
 The kernel is the core part of an operating system. It acts as a bridge between software and hardware, converting requests into instructions the hardware can understand.
 
-Hypervisor :
-hypervisor is a crucial piece of software that enables the creation and management of virtual machines (VMs). Here’s what you need to know:
-A hypervisor allows you to run multiple VMs on a single physical machine. Each VM has its own operating system and applications. The hypervisor allocates the underlying physical resources (like CPU and memory) to individual VMs as needed
-
 Container Runtimes
 There are several runtimes for running containers, including:
 Container-D
@@ -29,6 +25,10 @@ CRI-O
 # Container vs Virtual machines 
 
 ![image](https://github.com/saikiranpi/Mastering-Docker/assets/109568252/980faa67-603b-46d5-bb0b-83d40a22de08)
+
+Hypervisor :
+hypervisor is a crucial piece of software that enables the creation and management of virtual machines (VMs). Here’s what you need to know:
+A hypervisor allows you to run multiple VMs on a single physical machine. Each VM has its own operating system and applications. The hypervisor allocates the underlying physical resources (like CPU and memory) to individual VMs as needed
 
 Virtual Machines (VMs) are like having a complete, separate computer within your computer. Each VM runs its own full operating system, like having another Windows or Linux inside your main system. Because they need to load an entire OS, VMs are big and take a while to start. They are very isolated from each other, making them secure, as each VM operates independently without knowing about the others.
 
