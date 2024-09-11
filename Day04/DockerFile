@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-LABEL name="saikiran"
+LABEL name="shivaram"
 
 # Setting environment variables for AWS
 ENV AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXXXXXXXX \
